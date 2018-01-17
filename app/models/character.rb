@@ -2,7 +2,7 @@ class Character < ActiveRecord::Base
   belongs_to :show
   belongs_to :actor
 
-  def catchphrase
-    binding.pry
+  def say_that_thing_you_say
+    catchphrase
   end
 end
